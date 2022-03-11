@@ -1,8 +1,9 @@
 .navbar {
-  max-width: 1700px;
+  max-width: 1920px;
   width: 100%;
   align-items: center;
   font-family: "Abril Fatface";
+  margin-bottom: 2rem;
 }
 .navbar-brand {
   transform: translateX(2rem);
@@ -16,7 +17,13 @@ body {
   max-width: 1920px;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 .col {
   border: solid 1px black;
-  margin: 2rem;
+  margin: 1rem;
+  max-width: 350px;
+  min-height: 500px;
 }

@@ -1,0 +1,22 @@
+.navbar {
+  max-width: 1700px;
+  width: 100%;
+  align-items: center;
+  font-family: "Abril Fatface";
+}
+.navbar-brand {
+  transform: translateX(2rem);
+}
+.navbar .nav-link {
+  transform: translatex(-1rem);
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.col {
+  border: solid 1px black;
+  margin: 2rem;
+}

@@ -17,17 +17,28 @@ body {
   max-width: 1920px;
 }
 
+.container {
+  margin: 10px;
+}
+
+/*
+main {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+*/
 /*I thought masonry-ish grid would be prettier and I was right, but 
 WHY does it split the bottom images and move parts of them to the 
 top of next column? */
-.container {
-  max-width: 1400px;
-}
-
 .card-img {
   width: 400px;
   margin-top: 10px;
-  overflow: hidden;
+}
+
+.card-columns {
+  display: inline-block;
 }
 
 @media (min-width: 576px) {
@@ -55,3 +66,8 @@ img {
     overflow: hidden;
 }
 */
+.info-card {
+  max-width: 1400px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}

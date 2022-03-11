@@ -2,14 +2,13 @@
 WHY does it split the bottom images and move parts of them to the 
 top of next column? */
 
-.container {
-    max-width: 1400px;
-}
-
 .card-img {
     width: 400px; 
     margin-top: 10px;
-    overflow: hidden;
+}
+
+.card-columns {
+    display: inline-block;
 }
 
 @media (min-width: 576px) {

@@ -1,6 +1,19 @@
-//why can't I center the page? Google has not helped. 
+//why can't I center the page content? Google has not helped. Can't center in body or main. 
 
 body {
     margin: 0 auto; 
     max-width: 1920px;
 }
+
+.container {
+    margin: 10px;
+}
+
+/*
+main {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+*/

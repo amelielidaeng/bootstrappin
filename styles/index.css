@@ -18,12 +18,17 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .col-md-auto {
-  border: solid 1px black;
-  margin: 1rem;
-  max-width: 350px;
-  min-height: 500px;
+  max-width: 500px;
+}
+
+img {
+  width: 400px;
+  overflow: hidden;
 }

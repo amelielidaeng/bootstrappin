@@ -1,4 +1,41 @@
-.col {
-    border: solid 1px black;
-    margin: 2rem;
+/*I thought masonry-ish grid would be prettier and I was right, but 
+WHY does it split the bottom images and move parts of them to the 
+top of next column? */
+
+.card-img {
+    width: 400px; 
+    margin-top: 10px;
 }
+
+.card-columns {
+    display: inline-block;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+/* commented out related to photo grid rows
+.col-md-auto {
+    max-width: 500px;
+}
+
+img {
+    width: 400px; 
+    overflow: hidden;
+}
+*/

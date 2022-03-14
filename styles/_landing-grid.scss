@@ -7,10 +7,6 @@ top of next column? */
     margin-top: 10px;
 }
 
-.card-columns {
-    display: inline-block;
-}
-
 @media (min-width: 576px) {
     .card-columns {
         column-count: 1;
@@ -28,14 +24,3 @@ top of next column? */
         column-count: 3;
     }
 }
-
-/* commented out related to photo grid rows
-.col-md-auto {
-    max-width: 500px;
-}
-
-img {
-    width: 400px; 
-    overflow: hidden;
-}
-*/

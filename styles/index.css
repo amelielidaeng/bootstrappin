@@ -37,10 +37,6 @@ top of next column? */
   margin-top: 10px;
 }
 
-.card-columns {
-  display: inline-block;
-}
-
 @media (min-width: 576px) {
   .card-columns {
     column-count: 1;

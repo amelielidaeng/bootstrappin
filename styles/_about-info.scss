@@ -1,0 +1,19 @@
+.container-about {
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px;
+    width: 100%;
+    min-height: 900px;
+}
+
+.card-about {
+    max-width: 700px;
+    width: 100%;
+    min-height: 800px; 
+}
+
+.list-group-item {
+    min-height: 150px;
+    max-width: 700px; 
+    width: 100%;
+}

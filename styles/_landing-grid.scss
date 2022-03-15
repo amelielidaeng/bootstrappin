@@ -2,9 +2,15 @@
 WHY does it split the bottom images and move parts of them to the 
 top of next column? */
 
+
 .card-img {
     width: 400px; 
     margin-top: 10px;
+}
+
+.card {
+    border-radius: 0;
+    display: inline-block;
 }
 
 @media (min-width: 576px) {

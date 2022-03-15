@@ -1,9 +1,7 @@
-//why can't I center the page content? Google has not helped. Can't center in body or main. 
-
 body {
     margin: 0 auto; 
     max-width: 1920px;
-    min-height: 100vh; /*why is the footer further down?*/
+    min-height: 100vh;
 }
 
 .container {

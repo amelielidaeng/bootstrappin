@@ -1,18 +1,20 @@
+
 .container-about {
     display: flex;
-    flex-direction: row;
-    max-width: 1600px;
+    max-width: 1920px;
     width: 100%;
-    min-height: 100vh; /*why is the footer further down?*/ 
+    min-height: 100vh; 
 }
 
 .card-about {
     max-width: 700px;
     width: 100%;
-    min-height: 700px; 
-    padding: 20px;
+    min-height: 700px;
+    padding: 1rem;
     letter-spacing: 1px;
     line-height: 150%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
 }
 
 .card-title {
@@ -21,6 +23,7 @@
 
 .card-subtitle {
     font-family: 'Abril Fatface';
+    padding-top: 10px;
 }
 
 .info-about {
@@ -35,5 +38,9 @@
 
 .team-images {
     border-radius: 50%;
-    padding: 10px;
+    padding: 10px; 
+}
+
+.team-description {
+    padding-top: 10px;
 }

@@ -13,6 +13,18 @@
     padding: 20px;
 }
 
+.card-title {
+    font-family: 'Abril Fatface';
+}
+
+.card-subtitle {
+    font-family: 'Abril Fatface';
+}
+
+.info-about {
+    padding-top: 20px;
+}
+
 .list-group-item {
     min-height: 150px;
     max-width: 700px; 
@@ -21,6 +33,5 @@
 
 .team-images {
     border-radius: 50%;
-    align-self: flex-start;
     padding: 10px;
 }

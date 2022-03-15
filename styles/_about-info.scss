@@ -1,0 +1,39 @@
+.container-about {
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px;
+    width: 100%;
+    min-height: 100vh; /*why is the footer further down?*/ 
+}
+
+.card-about {
+    max-width: 700px;
+    width: 100%;
+    min-height: 700px; 
+    padding: 20px;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.card-title {
+    font-family: 'Abril Fatface';
+}
+
+.card-subtitle {
+    font-family: 'Abril Fatface';
+}
+
+.info-about {
+    padding-top: 20px;
+}
+
+.list-group-item {
+    min-height: 150px;
+    max-width: 700px; 
+    width: 100%;
+}
+
+.team-images {
+    border-radius: 50%;
+    padding: 10px;
+}

@@ -3,17 +3,19 @@
 body {
     margin: 0 auto; 
     max-width: 1920px;
+    min-height: 100vh; /*why is the footer further down?*/
 }
 
 .container {
     margin: 10px;
 }
 
-/*
-main {
-    max-width: 1400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+    &:hover {
+        color: rgb(248, 114, 136);
+    }
 }
-*/

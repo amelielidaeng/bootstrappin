@@ -3,13 +3,13 @@
     flex-direction: row;
     max-width: 1600px;
     width: 100%;
-    min-height: 900px;
+    min-height: 100vh; /*why is the footer further down?*/ 
 }
 
 .card-about {
     max-width: 700px;
     width: 100%;
-    min-height: 800px; 
+    min-height: 700px; 
     padding: 20px;
 }
 
